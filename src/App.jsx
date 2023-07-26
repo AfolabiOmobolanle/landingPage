@@ -1,11 +1,9 @@
 import React from 'react'
-import { Landingpage } from './Landingpage'
-
-
+import Calculator from './Components/Calculator'
 const App = () => {
   return (
-    <div className='h-screen w-screen'>
-      <Landingpage/>
+    <div className='h-screen w-screen justify-center'>
+      <Calculator />
     </div>
   )
 }
